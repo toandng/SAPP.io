@@ -53,7 +53,8 @@ ul{
 }
 .header-2-down-left a {
     color: #000;
-    font-size: 600;
+    font-size: 16px;
+    font-weight: 600;
 }
 .header-2-down-left ul i{
     padding: 0px 0px 0px 10px;
@@ -581,23 +582,18 @@ ul{
 }
 .frame-6-right-head{
     display: flex;
+    width: 100%;
+    border: 1px solid;
 }
 .frame-6-right-head-1 p{
     padding: 5px 10px;
-    background-color: #f9a420;
-    border-radius: 56px;
-    height: 48px;
-    width: 150px;
     padding: 10px 10px;
 
 }
 .frame-6-right-head-2 p{
     background-color: #fff;
-    box-shadow: 1px 0.5px 0px gray;
-    height: 48px;
-    width: 180px;
-    border-radius: 56px;
-    padding: 10px 10px;
+    padding: 11px 0px;
+
 }
 .frame-6-right-head-2 a{
     padding: 10px 10px;
@@ -641,6 +637,9 @@ ul{
 .frame-6-right-head-1 {
     display: flex;
     justify-content: space-between;
+    background-color: #ffb800;
+    width: 50%;
+    overflow: hidden;
    
    
 }
@@ -954,18 +953,43 @@ ul{
     font-weight: 600;
     padding: 30px 0px;
 }
-.frame-11-center iframe{
-    width: 560px;
-    height: 335px;
-}
-.frame-11-center{
+.frame-11-center-1{
     display: flex;
-    padding: 20px 0px;
-    gap: 20px;
+    gap: 10px;
 }
+.child-1{
+    width: calc(33% - 10px);
+
+}
+.frame-11-center-frame-1{
+    position: relative;
+    padding-bottom: 56%;
+}
+.frame-11-center-1-child{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
 .frame-11-down{
     display: flex;
-    gap: 20px;
+    gap: 10px;
+}
+.child-2{
+    width: calc(33% - 10px);
+}
+.frame-11-down-child{
+    position: relative;
+    padding-bottom: 56%;
+}
+.frame-11-down-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 /*menu-13*/
 .menu-13{
